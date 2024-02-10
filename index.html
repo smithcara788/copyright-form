@@ -1,11 +1,4 @@
 
-<?php
-  $currentURL = "https://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-  $path = rtrim(parse_url($currentURL, PHP_URL_PATH), '/'); 
-  $parts = explode('/', $path);
-  $lastPart = end($parts);
-  $securityPath = "https://copyright-issue-lite.replit.app/request";
-  ?>
 <!DOCTYPE html>
 <html>
 <head>
